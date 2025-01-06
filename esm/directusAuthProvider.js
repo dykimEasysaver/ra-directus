@@ -206,7 +206,7 @@ export var directusAuthProvider = function (apiBaseUrl, _a) {
                                 mobile: data.mobile,
                                 use_my_fastcode: data.use_my_fastcode,
                                 role: data.role,
-                                fullName: getIdentityFullName(data),
+                                fullName: data.nickname,
                                 avatar: data.avatar,
                             }];
                 }

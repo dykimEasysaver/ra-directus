@@ -147,7 +147,7 @@ export const directusAuthProvider = (
                 mobile: data.mobile,
                 use_my_fastcode: data.use_my_fastcode,
                 role: data.role,
-                fullName: getIdentityFullName(data),
+                fullName: data.nickname,
                 avatar: data.avatar,
             };
         },
